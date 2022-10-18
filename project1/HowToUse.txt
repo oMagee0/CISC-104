@@ -1,0 +1,7 @@
+My simulation involves two "Knight" objects attacking each other and gradually reducing each other's health.
+
+Each time the "Attack" function is run, a random number between 1-10 (inclusive) is rolled to see if the attack lands. If the number rolled is higher than
+the value of the "target" parameter's speed variable, the target's health variable is reduced by the value of the "attacker" parameter's power variable.
+
+The enemy and the player will attack each other at the same time. In order to initiate an attack, press the button labeled "Attack". To reset the
+simulation, press the button labeled "Reset".
