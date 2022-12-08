@@ -27,8 +27,8 @@ public class Duck : Bird
 
     public override int GetCalories()
     {
-        return 0;  // This might not be the right calculation for calories.  I don't know!
-        // return this.WeightInOunces * 96;
+        //return 0; // This might not be the right calculation for calories.  I don't know!
+        return this.WeightInOunces * 96;
     }
 }
 

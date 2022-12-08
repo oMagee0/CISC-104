@@ -32,8 +32,8 @@ public class Forest
 
 		for(int t = 0; t < turkeys.Length - currentTurkey; t++)
         {
-            // I think I removed a line here
-        }
+			returnedWeights[t] = turkeys[currentTurkey + t].WeightInOunces;
+		}
 
         return returnedWeights;
     }

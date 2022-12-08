@@ -60,7 +60,7 @@ public class KitchenManager : MonoBehaviour
 
         forestText = forestGameObject.GetComponent<TextMeshProUGUI>();
         pondText = pondGameObject.GetComponent<TextMeshProUGUI>();
-        // I think I removed a line here
+        coopText = coopGameObject.GetComponent<TextMeshProUGUI>();
         servedText = servedGameObject.GetComponent<TextMeshProUGUI>();
         chefStatusText = chefStatusObject.GetComponent<TextMeshProUGUI>();
     }
@@ -81,7 +81,7 @@ public class KitchenManager : MonoBehaviour
                 chefState = CurrentOperation.GetDuck;
                 break;
             case CurrentOperation.GetDuck:
-                // I think I removed a line here
+                currentDuck = duckPond.RemoveDuck();
                 chefState = CurrentOperation.BoneDuck;
                 break;
             case CurrentOperation.BoneDuck:
@@ -93,7 +93,7 @@ public class KitchenManager : MonoBehaviour
                 chefState = CurrentOperation.BoneTurkey;
                 break;
             case CurrentOperation.BoneTurkey:
-                // I think I removed a line here
+                currentTurkey.Debone();
                 chefState = CurrentOperation.AssembleTurDuckEn;
                 break;
             case CurrentOperation.AssembleTurDuckEn:
@@ -110,7 +110,7 @@ public class KitchenManager : MonoBehaviour
             case CurrentOperation.BakingTurDuckEn:
                 if(!currentTurDuckEn.IsCooked)
                 {
-                    // I think I removed a line here
+                    currentTurDuckEn.CookOneMinute();
                 }
                 else
                 {
@@ -158,7 +158,7 @@ public class KitchenManager : MonoBehaviour
         {
             foreach (int weight in duckPond.GetRemainingDuckWeights())
             {
-                // I think I removed a line here
+                pondText.text += weight.ToString() + " ";
             }
         }
         else
@@ -169,7 +169,7 @@ public class KitchenManager : MonoBehaviour
         coopText.text = "Coop: ";
         if (!chickenCoop.NoMoreChickens())
         {
-            // I think I removed a line here
+            foreach (int weight in chickenCoop.GetRemainingChickenWeights())
             {
                 coopText.text += weight.ToString() + " ";
             }
