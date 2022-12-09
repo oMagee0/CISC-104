@@ -1,0 +1,26 @@
+Group Members:
+
+  Owen Magee
+
+  Patrick Ellis
+
+  Nick Konkle
+
+  Joey Daloisio
+
+
+
+Work distribution:
+
+  Programming and documentation: Owen Magee
+
+  UI and UI framework: Nick Konkle
+
+  Playing card art: Patrick Ellis
+
+
+
+Project approach:
+
+In Discord text chats, we casually assigned tasks, but did not set interim deadlines or think about sequencing of our tasks. Our deadline and work 
+balancing challenges on this project caused us to learn the value of planning out the tasks better. Next time, we will start earlier, communicate more, and meet in person at least once before the project is complete. That should result in a smoother distribution of work. 

@@ -1,0 +1,28 @@
+BlackJack
+
+
+Origins:
+
+It is widely believed that BlackJack (alternatively called 21) originated from French casinos around the 1700's.  
+Its original name is "Vingt-et-un", which means 21 in French.
+
+
+How to Play in this version:
+
+You play against the dealer.  At the start of each round, you and the dealer are each dealt two cards. One of the dealer's cards is face down, and you have no way of knowing what it is.  You are able to either 'Hit' or 'Hold'. If you Hit, you are dealt another card, and that card's number is added to your total. If your total exceeds 21, you bust (you lose). If your total equals 21, you automatically win. If you Hold, your turn is over and the dealer's turn begins. 
+
+On the dealer's turn, their facedown card is revealed and added to their total. The dealer then Holds or Hits until they bust. If the dealer has 16 or less, they will hit. If they have 17 or more, they will hold.  If they bust, you win.  If they hold, your total is compared against theirs, and the one with the higher score wins. If you and the dealer have the same score, you tie. You can use the New Round button to reset the game at any point. 
+
+In this version, the traditional Ace card is replaced with a "1" card. There is only one suit in the deck, and there are four of each card in the deck.
+
+
+
+Ideas for future enhancements:
+
+Ace cards with dual value of 1 or 11
+Card animation when being dealt or flipped
+Adding pauses between cards during dealer's play
+Feature for placing bets from a bank of fake in-game money
+Add more suits
+
+
